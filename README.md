@@ -1,4 +1,4 @@
-[Deutsch] [Englisch](https://github.com/daywalk3r666/Termux_url_opener_all_in_one_downloader/blob/dev/README_en.md)
+[Deutsch] [Englisch](https://github.com/daywalk3r666/Termux-Downloader-Script/blob/main/README_en.md)
 
 # All-in-one Download Script für Termux ([URL Opener](https://wiki.termux.com/wiki/Intents_and_Hooks))
 
