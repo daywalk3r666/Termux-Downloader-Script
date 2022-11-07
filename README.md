@@ -21,13 +21,13 @@ Starte Termux, dann:
 <p>
   
 ```
-curl -s "https://raw.githubusercontent.com/daywalk3r666/Termux_url_opener_all_in_one_downloader/dev/install.sh" > install.sh && bash install.sh
+curl -s "https://raw.githubusercontent.com/daywalk3r666/Termux-Downloader-Script/main/install.sh" > install.sh && bash install.sh
 ```
   
 </p>
 </details>
 
-* _oder_ führe das Script aus [Schritt für Schritt](https://raw.githubusercontent.com/daywalk3r666/Termux_url_opener_all_in_one_downloader/dev/install.sh)
+* _oder_ führe das Script aus [Schritt für Schritt](https://github.com/daywalk3r666/Termux-Downloader-Script/blob/main/install.sh)
 
 # FAQ
 Dieses Skript ist leerzeichenabhängig. Daher werden die Optionen "3" und "3 " unterschiedlich behandelt. Während die erste Option die Option 3 auslöst, ist die zweite ungültig und löst die _Standardoption_ aus.

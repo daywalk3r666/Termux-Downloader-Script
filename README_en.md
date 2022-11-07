@@ -21,13 +21,13 @@ Launch Termux, then:
 <p>
   
 ```
-curl -s "https://raw.githubusercontent.com/daywalk3r666/Termux_url_opener_all_in_one_downloader/dev/install.sh" > install.sh && bash install.sh
+curl -s "https://raw.githubusercontent.com/daywalk3r666/Termux-Downloader-Script/main/install.sh" > install.sh && bash install.sh
 ```
   
 </p>
 </details>
 
-* _or_ run the install script [line by line](https://raw.githubusercontent.com/daywalk3r666/Termux_url_opener_all_in_one_downloader/dev/install.sh)
+* _or_ run the install script [line by line](https://github.com/daywalk3r666/Termux-Downloader-Script/blob/main/install.sh)
 
 # FAQ
 This script is blank sensitive. Therefore options `3` and `3 ` are treated differently, while the former will launch option 3 the latter is invalid and will launch the _default_ option.
