@@ -6,12 +6,12 @@ Abhängingkeiten: `ffmpeg, youtube-dl, python, wget, spotdl, yt-dlp, you-get, te
 
 [Termux:API](https://wiki.termux.com/wiki/Termux:API) [APK](https://f-droid.org/packages/com.termux.api/) (Und sein gleichnamiges Termux pkg) werden *eventuell* benötigt, um die streamingfähige URL (der Medien-URL, die Sie anvisieren) bequem mit jeder kompatiblen Anwendung (wie z. B. einem Media Player) zu teilen. 
 
-![https://github.com/daywalk3r666/Termux_url_opener_all_in_one_downloader/blob/dev/screenshot.png](/screenshot.png)
+![https://github.com/daywalk3r666/Termux-Downloader-Script/blob/main/screenshot.png](/screenshot.png)
 
 # Benutzung
 Ziel URL über das [Android Teilen-Menü](https://developer.android.com/training/sharing/send) an Termux senden.
 
-![https://github.com/daywalk3r666/Termux_url_opener_all_in_one_downloader/blob/dev/share_icon.png](/share_icon.png)
+![https://github.com/daywalk3r666/Termux-Downloader-Script/blob/main/share_icon.png](/share_icon.png)
 
 
 # Installation
@@ -40,7 +40,7 @@ Für Root-Benutzer: spotdl fügt den Liedtext ein und den Download-Link als Komm
 * Für die Liedtexte: Entferne die 3 Liedtext Quellen in /data/data/com.termux/files/home/.spotdl/config.json
 ![photo_2022-10-09_08-13-01](https://user-images.githubusercontent.com/15938117/194741161-641999ec-55c7-4ec3-b95b-1594838e77a6.jpg)
 * Für den Kommentar Tag: Entferne die Zeilen 124 - 125 in /data/data/com.termux/files/usr/lib/python3.10/site-packages/spotdl/utils/metadata.py
-<br>![Screenshot 2022-10-09 082009](https://user-images.githubusercontent.com/15938117/194741322-d9fe69e0-d029-4a09-8cfe-73a176ba7006.jpg)
+<br>![https://github.com/daywalk3r666/Termux-Downloader-Script/blob/main/spotdl.png](/spotdl.png)
 
 # Update der Abhängigkeiten
 

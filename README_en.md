@@ -6,12 +6,12 @@ Dependencies: `ffmpeg, youtube-dl, python, wget, spotdl, yt-dlp, you-get, termux
 
 [Termux:API](https://wiki.termux.com/wiki/Termux:API) [APK](https://f-droid.org/packages/com.termux.api/) (and its homonymus termux pkg) are *eventually* needed to comfortably share the streamable URL (of the media URL you target) with any compatible app (like a media player, for instance). 
 
-![https://github.com/daywalk3r666/Termux_url_opener_all_in_one_downloader/blob/dev/screenshot.png](/screenshot.png)
+![https://github.com/daywalk3r666/Termux-Downloader-Script/blob/main/screenshot.png](/screenshot.png)
 
 # Usage
 "Send" the target URL to Termux by [any Android native "sharing" intent you'd like](https://developer.android.com/training/sharing/send).
 
-![https://github.com/daywalk3r666/Termux_url_opener_all_in_one_downloader/blob/dev/share_icon.png](/share_icon.png)
+![https://github.com/daywalk3r666/Termux-Downloader-Script/blob/main/share_icon.png](/share_icon.png)
 
 
 # Installation
@@ -40,7 +40,7 @@ For Root Users: spotdl includes lyrics and the download link as comment. If you 
 * For lyrics: Remove the 3 lyrics_providers in /data/data/com.termux/files/home/.spotdl/config.json
 ![photo_2022-10-09_08-13-01](https://user-images.githubusercontent.com/15938117/194741161-641999ec-55c7-4ec3-b95b-1594838e77a6.jpg)
 * For the comment tag: Remove the lines 124 - 125 in /data/data/com.termux/files/usr/lib/python3.10/site-packages/spotdl/utils/metadata.py
-<br>![Screenshot 2022-10-09 082009](https://user-images.githubusercontent.com/15938117/194741322-d9fe69e0-d029-4a09-8cfe-73a176ba7006.jpg)
+<br>![https://github.com/daywalk3r666/Termux-Downloader-Script/blob/main/spotdl.png](/spotdl.png)
 
 # Update dependencies
 
