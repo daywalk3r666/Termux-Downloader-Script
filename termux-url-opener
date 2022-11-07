@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 url=$1
-echo "All-in-one Download Script for Termux"
+echo "----All-in-one Download Script for Termux----"
 echo "----------Last updated Nov 06 2022----------"
 echo "--------------------------------------------"
 echo "1: Download with yt-dlp (Fixed Bandwidth Throttling by YouTube)"
