@@ -10,6 +10,6 @@ pkg clean && pip cache purge
 
 
 #Installing the script
-wget -P /data/data/com.termux/files/home/bin/ --no-check-certificate "https://raw.githubusercontent.com/daywalk3r666/Termux_url_opener_all_in_one_downloader/dev/termux-url-opener" 
+wget -P /data/data/com.termux/files/home/bin/ --no-check-certificate "https://raw.githubusercontent.com/daywalk3r666/Termux-Downloader-Script/main/termux-url-opener" 
 chmod +x "/data/data/com.termux/files/home/bin/termux-url-opener"
 termux-setup-storage
