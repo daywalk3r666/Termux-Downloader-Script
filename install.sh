@@ -5,7 +5,7 @@ mkdir /data/data/com.termux/files/home/bin
 
 #Installing dependencies (and cleaning the leftovers)
 pkg update -y && pkg install wget python ffmpeg termux-api -y
-yes | pip install youtube-dl spotdl yt-dlp you-get rapidfuzz beautifulsoup4
+yes | pip install youtube-dl yt-dlp you-get
 pkg clean && pip cache purge
 
 
