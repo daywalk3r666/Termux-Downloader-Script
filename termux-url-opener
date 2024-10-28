@@ -26,7 +26,7 @@ else
 
 if [ "$n" == '4' ]; then
 [ ! -d "/data/data/com.termux/files/home/storage/shared/youtube-dl" ] && mkdir "/data/data/com.termux/files/home/storage/shared/youtube-dl"
-yt-dlp --extractor-args "youtube:player_client=android" -x --audio-format mp3 -f bestaudio --audio-quality 0 --add-metadata --embed-thumbnail -c -i "$url" -o "/data/data/com.termux/files/home/storage/shared/youtube-dl/%(title)s.%(ext)s"
+yt-dlp --extractor-args "youtube:po_token=android_music+XXX" -x --audio-format mp3 -f bestaudio --audio-quality 0 --add-metadata --embed-thumbnail -c -i "$url" -o "/data/data/com.termux/files/home/storage/shared/youtube-dl/%(title)s.%(ext)s"
 else
 
 if [ "$n" == '5' ]; then
