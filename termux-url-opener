@@ -18,6 +18,7 @@ else
 
 if [ "$n" == '3' ]; then
 pkg upgrade -y && pip install -U yt-dlp[default]
+exit 0
 
 [ ! -d "/data/data/com.termux/files/home/storage/shared/youtube-dl" ] && mkdir "/data/data/com.termux/files/home/storage/shared/youtube-dl"
 yt-dlp -c -i "$url" -o "/data/data/com.termux/files/home/storage/shared/youtube-dl/%(title)s.%(ext)s"
