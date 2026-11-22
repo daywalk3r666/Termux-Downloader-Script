@@ -17,7 +17,7 @@ yt-dlp -x --audio-format mp3 -f bestaudio --audio-quality 0 --add-metadata --emb
 else
 
 if [ "$n" == '3' ]; then
-pkg upgrade && pip install -U yt-dlp[default]
+pkg upgrade -y && pip install -U yt-dlp[default]
 
 [ ! -d "/data/data/com.termux/files/home/storage/shared/youtube-dl" ] && mkdir "/data/data/com.termux/files/home/storage/shared/youtube-dl"
 yt-dlp -c -i "$url" -o "/data/data/com.termux/files/home/storage/shared/youtube-dl/%(title)s.%(ext)s"
