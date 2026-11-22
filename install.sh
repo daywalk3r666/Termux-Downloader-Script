@@ -4,7 +4,7 @@ rm -f "/data/data/com.termux/files/home/bin/termux-url-opener"
 mkdir /data/data/com.termux/files/home/bin
 
 #Installing dependencies (and cleaning the leftovers)
-pkg update -y && pkg install wget python ffmpeg termux-api -y
+pkg update -y && pkg install deno python ffmpeg termux-api -y
 yes | pip install yt-dlp[default]
 pkg clean && pip cache purge
 
