@@ -6,7 +6,6 @@ echo "----------Last updated Nov 22 2026----------"
 echo "--------------------------------------------"
 echo "1: Video Download"
 echo "2: Musik Download"
-echo "3: Update der Pakete"
 echo "Default: Download with yt-dlp (Fixed Bandwidth Throttling by YouTube)"
 read n
 
@@ -16,13 +15,10 @@ if [ "$n" == '2' ]; then
 yt-dlp -x --audio-format mp3 -f bestaudio --audio-quality 0 --add-metadata --embed-thumbnail -c -i "$url" -o "/data/data/com.termux/files/home/storage/shared/youtube-dl/%(title)s.%(ext)s"
 else
 
-if [ "$n" == '3' ]; then
-pkg upgrade -y && pip install -U yt-dlp[default]
-exit 0
 
 [ ! -d "/data/data/com.termux/files/home/storage/shared/youtube-dl" ] && mkdir "/data/data/com.termux/files/home/storage/shared/youtube-dl"
 yt-dlp -c -i "$url" -o "/data/data/com.termux/files/home/storage/shared/youtube-dl/%(title)s.%(ext)s"
 fi
-fi
+
 
 
